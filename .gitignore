@@ -53,3 +53,7 @@ Thumbs.db
 packets.db
 *.pcap
 *.pcapng
+
+# PyInstaller
+*.spec
+build/

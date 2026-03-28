@@ -233,7 +233,7 @@ class NetworkScanner:
 
         mac_prefix = mac[:8].upper()
 
-        for vendor, prefixes in self.VENDppythoOR_PREFIXES.items():
+        for vendor, prefixes in self.VENDOR_PREFIXES.items():
             if mac_prefix in prefixes:
                 return vendor
 

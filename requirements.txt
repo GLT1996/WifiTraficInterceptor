@@ -1,0 +1,30 @@
+# WiFi数据包分析软件依赖
+
+# 核心依赖
+scapy>=2.5.0
+dpkt>=1.9.8
+
+# GUI依赖
+PyQt6>=6.6.0
+pyqtgraph>=0.13.0
+matplotlib>=3.8.0
+
+# 数据处理
+sqlalchemy>=2.0.0
+pandas>=2.0.0
+
+# 网络工具
+# netifaces>=0.11.0  # 需要C++编译器，Windows上可选
+mac-vendor-lookup>=0.1.12
+
+# 工具库
+python-dateutil>=2.8.0
+pytz>=2024.1
+
+# 日志
+colorlog>=6.8.0
+
+# 测试
+pytest>=8.0.0
+pytest-qt>=4.3.0
+pytest-cov>=4.1.0

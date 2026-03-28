@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(where tshark:*)",
+      "Bash(where python:*)",
+      "Bash(where node:*)",
+      "Bash(pip list:*)",
+      "Bash(npm list:*)",
+      "Bash(python:*)",
+      "Bash(ipconfig)",
+      "Bash(findstr /i \"IPv4\")",
+      "Bash(findstr /i \"target gateway arp\")"
+    ]
+  }
+}
